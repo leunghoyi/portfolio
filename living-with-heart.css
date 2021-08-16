@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: #FFFAF8;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%  0 20%;
+  color: #868686;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.top-bar {
+  display: grid;
+  height: 150px;
+  align-self: center;
+}
+
+.heading {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+
+.paragraph {
+  padding: 0 8% 3% 8%;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.original,
+.process,
+.emotion_sleep,
+.color,
+.program,
+.home {
+  margin-top: 8%;
+}
+
+.color {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.color img {
+  grid-column: 1/2;
+  max-width: 100%;
+}
+
+.right-column {
+  align-self: center;
+}
+
+.program {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.program img {
+  grid-column: 2/3;
+  max-width: 100%;
+}
+
+img {
+  max-width: 1010px;
+}
+
+.home {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.main-uiux {
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  background: #FFF5F0;
+}
+
+.main-uiux:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+
+.main-uiux:hover > .home-label-uiux {
+  color: #815959;
+  transition-duration: 0.5s;
+}
+
+.main-other {
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  background: #F0FFFF;
+}
+
+.main-other:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+
+.main-other:hover > .home-label-other {
+  color: #0C4666;
+  transition-duration: 0.5s;
+}
+
+.home-label-uiux {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #101010;
+  text-align: center;
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  right: 20%;
+  top: 450px;
+}
+
+.home-label-other {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #101010;
+  text-align: center;
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  right: 20%;
+  top: 520px;
+}
+
+.name-card {
+  position: absolute;
+  width: 580px;
+  height: 380px;
+  left: 20%;
+  top: 33%;
+  background-image: url("namecard.png");
+  display: grid;
+  grid-template-columns: 45% 55%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon {
+  padding-top: 25%;
+  padding-left: 20%;
+}
+
+img {
+  height: 200px;
+}
+
+.info {
+  grid-column: 2 / 3;
+  padding-top: 145px;
+}
+
+.info:hover > .leunghoyi{
+  font-size: 0;
+  //-transition:0.5s
+}
+
+.info:hover > .designer{
+  font-size: 0;
+  /-transition:0.5s
+}
+
+.info:hover:after {
+  content: attr(data-hover);
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #868686;
+
+}
+
+.leunghoyi {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #868686;
+}
+
+.designer {
+  line-height: 3em;
+  letter-spacing: 0.1em;
+  color: #868686;
+  font-weight: 300;
+}
