@@ -57,6 +57,9 @@ a {
 .living-with-heart-pic {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
+  width: 750px;
+  height: 511px;
+  overflow: hidden;
 }
 
 img{
@@ -64,7 +67,8 @@ img{
 }
 
 img:hover {
-  opacity: 0.5;
+  transform: scale(1.1);
+  max-width: 100%;
   transition-duration: 0.5s;
 }
 
@@ -77,4 +81,6 @@ img:hover {
 .neo-skin-pic {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
+  width: 750px;
+  overflow: hidden;
 }
