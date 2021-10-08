@@ -76,7 +76,8 @@ body {
 }
 
 img {
-  max-width: 1010px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .home {
